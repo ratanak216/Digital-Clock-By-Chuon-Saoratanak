@@ -1,0 +1,38 @@
+*{
+    background-color: rgb(81, 92, 116);
+    margin: 10px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+h1{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font: 40px;
+}
+.digital clock{
+    width: 400px;
+    height: 420px;
+}
+#clock{
+    align-items: center;
+    border-radius: 8px;
+    background-color: aqua;
+    font-size: 100px;
+    padding: 80px;
+    box-shadow: 0 0 60px aqua;
+    cursor: pointer;
+    color: rgb(35, 35, 35);
+}
+#clock:hover{
+    align-items: center;
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+    text-align: center;
+    font-size: 25px;
+}
